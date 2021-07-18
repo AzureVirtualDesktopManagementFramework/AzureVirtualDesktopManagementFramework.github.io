@@ -1,0 +1,16 @@
+{
+    "backto":  {
+        "Label":  "Main",
+        "Link":  "index.html"
+    },
+    "fellows":  [
+        {
+            "Label":  "Github",
+            "Link":  "https://github.com/AzureVirtualDesktopManagementFramework/AVDManagementFramework"
+        },
+        {
+            "Label":  "Documentation",
+            "Link":  "documentation.html"
+        }
+    ]
+}
