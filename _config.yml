@@ -2,4 +2,3 @@ theme: jekyll-theme-leap-day
 title: Azure Virtual Desktop Management Framework
 name: Azure Virtual Desktop Management Framework
 description: Configuration Driven AVD Deployment
-markdown: CommonMark
