@@ -6,8 +6,10 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!--
     <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    -->
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
     <![endif]-->
@@ -41,16 +43,16 @@
 
   <body>
     <header>
-      <h1>Active Directory Management Framework</h1>
+      <h1>Azure Virtual Desktop Management Framework</h1>
       <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
     </header>
 
     <!--<div id="banner" style="display: block;">-->
     <div id="banner">
       <div class="fork" style="padding: 0; margin-top: 0; background: #ffcc00;">
-        <a href="https://admf.one/" class="button">Main</a>
-        <a href="https://admf.one/github.html" class="button">Github</a>
-        <a href="https://admf.one/documentation.html" class="button">Documentation</a>
+        <!--<a href="https://admf.one/" class="button">Main</a> -->
+        <a href="https://github.com/AzureVirtualDesktopManagementFramework/AVDManagementFramework" class="button">Github</a>
+        <a href="https://azurevirtualdesktopmanagementframework.github.io/documentation.html" class="button">Documentation</a>
       </div>
     </div>
 
@@ -72,7 +74,7 @@
 
       </section>
       <footer>
-        <p>ADMF maintained by <a href="https://github.com/FriedrichWeinmann">Friedrich Weinmann</a></p>
+        <p>ADMF maintained by <a href="https://github.com/WillyMoselhy">Willy Moselhy</a></p>
       </footer>
     </div>
   </body>
