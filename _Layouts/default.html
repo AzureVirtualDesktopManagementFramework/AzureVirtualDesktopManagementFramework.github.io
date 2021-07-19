@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+#backToParent2 {
+  display:none;
+}
+#inMainList {
+  display:none;
+}
+@media print, screen and (max-width: 480px) {
+  #backToParent2 {
+    display:inline;
+  }
+  #inMainList {
+    display:inline;
+  }
+}
+@media print, screen and (max-height: 480px) {
+  #backToParent2 {
+    display:inline;
+  }
+  #inMainList {
+    display:inline;
+  }
+}
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Active Directory Management Framework</h1>
+      <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+    </header>
+
+    <!--<div id="banner" style="display: block;">-->
+    <div id="banner">
+      <div class="fork" style="padding: 0; margin-top: 0; background: #ffcc00;">
+        <a href="https://admf.one/" class="button">Main</a>
+        <a href="https://admf.one/github.html" class="button">Github</a>
+        <a href="https://admf.one/documentation.html" class="button">Documentation</a>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="wrapper">
+      <!-- Navigation Bar -->
+      <nav style="overflow-y:auto;" id="navSidebar">
+        <p id="backToParent"></p>
+        <ul>
+        </ul>
+      </nav>
+
+      <!-- Content -->
+      <section>
+          <p id="backToParent2"></p>
+          <ul id="inMainList">
+          </ul>
+        {{ content }}
+
+      </section>
+      <footer>
+        <p>ADMF maintained by <a href="https://github.com/FriedrichWeinmann">Friedrich Weinmann</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
