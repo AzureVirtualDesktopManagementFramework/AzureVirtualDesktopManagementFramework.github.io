@@ -10,7 +10,7 @@ All resource groups are created before deploying any components.
 
 ## Network
 All network components, except Remote Peerings, are deployed into one resource group using a single
-- [Virtual Networks](Documentation\Components\Network\VirtualNetworks.html)
+- [Virtual Networks](Network\VirtualNetworks.html)
 - Network Security Groups
 - Address Spaces
 
