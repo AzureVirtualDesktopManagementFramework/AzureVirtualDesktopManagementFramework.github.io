@@ -6,7 +6,7 @@ Coming Soon!
 
 ## Content Reference
 
-+ [Components](documentation/components/components.html)
++ [Components](Documentation/Components/components.html)
 
 ## In Depth
 
