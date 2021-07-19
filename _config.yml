@@ -3,5 +3,3 @@ title: Azure Virtual Desktop Management Framework
 name: Azure Virtual Desktop Management Framework
 description: Configuration Driven AVD Deployment
 markdown: CommonMark
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
