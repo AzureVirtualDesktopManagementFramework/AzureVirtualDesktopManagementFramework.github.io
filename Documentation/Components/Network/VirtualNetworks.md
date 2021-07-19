@@ -2,7 +2,7 @@
 You can create as many virtual networks as needed. The recommended is a single vNET for all host pools.
 A host pool will always create a subnet for itself in virtual network.
 
-**Path:** .\Network\VirtualNetwork\*.json
+**Path:** .\Network\VirtualNetworks\\*.json
 
 ## Sample
 ```json
