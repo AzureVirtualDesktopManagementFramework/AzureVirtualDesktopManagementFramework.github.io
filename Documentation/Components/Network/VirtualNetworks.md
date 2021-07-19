@@ -47,8 +47,8 @@ A host pool will always create a subnet for itself in virtual network.
 
 ### Default Subnets
 
-| Property    | Required | Description                                                                                                   | Accepted Values    |
-| ----------- | -------- | ------------------------------------------------------------------------------------------------------------- | ------------------ |
-| Scope       | Yes      | Scope of the subnet. This is used to point to the proper Address Space <-- #TODO: Add link to address space.--> | Address Space name |
-| NamePrefix  | Yes      | All subnets use a "Prefix_Subnet" naming convention. You must define the prefix here.                         | String             |
-| PrivateLink | No       | Default is false. Set to true for subnets used for private links. <-- #TODO: Explain why-->                     | Boolean            |
+| Property    | Required | Description                                                                                                      | Accepted Values    |
+| ----------- | -------- | ---------------------------------------------------------------------------------------------------------------- | ------------------ |
+| Scope       | Yes      | Scope of the subnet. This is used to point to the proper Address Space <!-- #TODO: Add link to address space.--> | Address Space name |
+| NamePrefix  | Yes      | All subnets use a "Prefix_Subnet" naming convention. You must define the prefix here.                            | String             |
+| PrivateLink | No       | Default is false. Set to true for subnets used for private links. <!-- #TODO: Explain why-->                     | Boolean            |
