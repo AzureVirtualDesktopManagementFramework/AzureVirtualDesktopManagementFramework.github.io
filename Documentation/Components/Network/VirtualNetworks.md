@@ -29,6 +29,7 @@ A host pool will always create a subnet for itself in virtual network.
 }
 ```
 ## Properties
+
 | Property               | Required | Description                                                                                                                                                                                                            | Accepted Values       |
 | ---------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
 | ReferenceName          | Yes      | Name used to refer to this vNET in other components                                                                                                                                                                    | String                |
@@ -37,6 +38,7 @@ A host pool will always create a subnet for itself in virtual network.
 | DefaultSubnets         | No       | List of subnets to create by default for this subnet. Use it for other components like storage accounts that use Private Links. Remember that each host pool will create its own subnet, no need to configure it here. | #TODO: Link           |
 
 ### Virtual Network Peerings
+
 | Property            | Required | Description                                                                                                                                                                                                     | Accepted Values |
 | ------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
 | RemoteVnetId        | Yes      | Resource ID of hub vNET                                                                                                                                                                                         | Resource ID     |
@@ -44,6 +46,7 @@ A host pool will always create a subnet for itself in virtual network.
 | CreateRemotePeering | No       | Default is false. Set to true if you wish to automatically create a peering in the remote network. If this is not configured you must manually create the peering for connectivity to work as expected.         | Boolean         |
 
 ### DefaultSubnets
+
 | Property    | Required | Description                                                                                                   | Accepted Values    |
 | ----------- | -------- | ------------------------------------------------------------------------------------------------------------- | ------------------ |
 | Scope       | Yes      | Scope of the subnet. This is used to point to the proper Address Space <-- #TODO: Add link to address space.> | Address Space name |
