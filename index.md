@@ -4,3 +4,5 @@ No need for complex scripts, all you need are simple configuration files and, pr
 an GitHub or Azure DevOps account to track your files and automate deployments.
 
 AVDMF builds all components required for a successful deployment, from Virtual network and subnets to Session Hosts.
+
+# [Documentation](Documentation.html)
