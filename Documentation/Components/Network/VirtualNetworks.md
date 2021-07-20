@@ -1,5 +1,5 @@
 # Virtual Networks
-You can create as many virtual networks as needed. The recommended is a single vNET for all host pools.
+You can create as many virtual networks as needed. The recommended is a single vNET for all host pools in a deployment stage.
 A host pool will always create a subnet for itself in virtual network.
 
 **Path:** .\Network\VirtualNetworks\\*.json
