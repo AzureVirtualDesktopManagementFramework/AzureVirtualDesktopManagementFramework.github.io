@@ -5,6 +5,10 @@
     },
     "fellows":  [
         {
+            "Label":  "Main",
+            "Link":  "index.html"
+        },
+        {
             "Label":  "Github",
             "Link":  "https://github.com/AzureVirtualDesktopManagementFramework/AVDManagementFramework"
         },
